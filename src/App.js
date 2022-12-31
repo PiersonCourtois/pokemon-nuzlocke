@@ -1,29 +1,19 @@
 import React from 'react';
 import { useState } from 'react';
-import Run from './components/Run'
+import Run from './components/Run';
+import Reset from './components/Reset';
+import { gameData } from './area-data.js';
+import { userData } from "./user-data";
 
 const App = () => {
-    const [game, setGame] = useState('');
+    if (localStorage.getItem('userData') === null) {
+        localStorage.setItem('userData', JSON.stringify(userData));
+    }
     
-
     return (
         <>
-        {/* Default state is no game selected, so render game option buttons */}
-            {(game === '') && (
-                <>
-                    <button onClick={() => setGame('scarlet')}>Scarlet</button>
-                    <button onClick={() => setGame('violet')}>Violet</button>
-                </>
-            )}
-            {/* When game is selected, render run for that game */}
-            {(game !== '') && 
-                (
-                <>
-                    <button onClick={() => setGame('')}>Back</button>
-                    <Run gameType = {game}/>
-                </>
-                )
-            }   
+         <Reset />
+         <Run />
         </>
     );
 }
