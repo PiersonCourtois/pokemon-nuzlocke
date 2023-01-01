@@ -1,5 +1,4 @@
 import React from "react";
-import { gameData } from "../area-data";
 import { userData } from "../user-data";
 
 const Reset = () => {
@@ -7,8 +6,10 @@ const Reset = () => {
 }
 
 function resetRun() {
+  // Function to reset the current data by clearing the data stored in local storage. 
+  // TODO- Make it so that page re-renders on reset.
   window.localStorage.clear();
-  localStorage.setItem('userData', JSON.stringify(gameData));
+  localStorage.setItem('userData', JSON.stringify(userData));
 }
 
 export default Reset;

@@ -3,7 +3,6 @@ import React from 'react';
 import Area from './Area';
 import { useState } from 'react';
 import { gameData } from '../area-data.js';
-import { userData } from "../user-data";
 
 const Run = () => {
     const [area, setArea] = useState(0);
@@ -31,19 +30,24 @@ const Run = () => {
 }
 
 export function setLocal(key, i, str) {
+    // Function to set a data item to local storage. Takes in key, index, and a string to set. 
     var tempData = JSON.parse(localStorage.getItem('userData'));
     tempData[i][key] = str;
     localStorage.setItem('userData', JSON.stringify(tempData));
 }
 
 export function getLocal(key, i) {
+    // Function to get a data item from local storage. Takes in key and index. Returns data item at [index][key]
     var tempData = JSON.parse(localStorage.getItem('userData'));
     return JSON.stringify(tempData[i][key]);
 }
 
 export function genPokemon(i) {
+    // Function to generate a random pokemon from a given list. Takes in index of list. Sets pokemon generated to local storage then returns that generated pokemon
     let list = gameData[i]["encounters-scarlet"];
-    return list[Math.floor(Math.random() * list.length)];
+    let poke = list[Math.floor(Math.random() * list.length)];
+    setLocal(1, i, poke);
+    return poke;
   }
 
 export default Run;
