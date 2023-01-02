@@ -1,6 +1,6 @@
 import React from 'react';
 import Run from './components/Run';
-import Reset from './components/Reset';
+
 import { userData } from "./user-data";
 
 const App = () => {
@@ -11,7 +11,6 @@ const App = () => {
     
     return (
         <>
-         <Reset />
          <Run />
         </>
     );
