@@ -42,9 +42,9 @@ export function getLocal(key, i) {
     return JSON.stringify(tempData[i][key]);
 }
 
-export function genPokemon(i) {
+export function genPokemon(i, condition) {
     // Function to generate a random pokemon from a given list. Takes in index of list. Sets pokemon generated to local storage then returns that generated pokemon
-    let list = gameData[i]["encounters-scarlet"];
+    let list = gameData[i][condition];
     let poke = list[Math.floor(Math.random() * list.length)];
     setLocal(1, i, poke);
     return poke;
