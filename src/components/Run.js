@@ -42,13 +42,27 @@ export function getLocal(key, i) {
     return JSON.stringify(tempData[i][key]);
 }
 
-export function genPokemon(i, condition) {
+export function genPokemon(i, condition, dupes) {
     // Function to generate a random pokemon from a given list. Takes in index of list. Sets pokemon generated to local storage then returns that generated pokemon
     let list = gameData[i][condition];
     let poke = list[Math.floor(Math.random() * list.length)];
+    console.log(dupes);
+    if(!dupes) 
+        while(isDupe(poke)) 
+            poke = list[Math.floor(Math.random() * list.length)]; 
+    
     setLocal("pokemonChosen", i, poke);
     setLocal("isChosen", i, "true");
     return poke;
   }
+
+export function isDupe(pokemon) {
+    for(let i = 0; i < 30; i++) {
+        let temp = JSON.parse(getLocal("pokemonChosen", i));
+        if(temp === pokemon)
+            return true;
+    }
+    return false;
+}
 
 export default Run;

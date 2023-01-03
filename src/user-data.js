@@ -115,7 +115,32 @@ export const userData = [
     "pokemonChosen": ""
   },
   {
+    // Socarrat Trail
+    "isChosen": "false",
+    "pokemonChosen": ""
+  },
+  {
     // Casseroya Lake
+    "isChosen": "false",
+    "pokemonChosen": ""
+  },
+  {
+    // North Paldean Sea
+    "isChosen": "false",
+    "pokemonChosen": ""
+  },
+  {
+    // South Paldean Sea
+    "isChosen": "false",
+    "pokemonChosen": ""
+  },
+  {
+    // East Paldean Sea
+    "isChosen": "false",
+    "pokemonChosen": ""
+  },
+  {
+    // West Paldean Sea
     "isChosen": "false",
     "pokemonChosen": ""
   },

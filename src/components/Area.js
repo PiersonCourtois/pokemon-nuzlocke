@@ -6,24 +6,33 @@ import { gameData } from '../area-data.js';
 
 const Area = props => {
   const areaKeys = Object.keys(gameData[props.currentArea]).length;
+  const [dupes, setDupes] = useState(false);
   const [condition, setCondition] = useState("encounters-scarlet");
   const [night, setNight] = useState(false);
   const [pokemon, setPokemon] = useState(JSON.parse(getLocal("pokemonChosen", props.currentArea)));
+  // Dupes handler
+  const changeDupes = () => {
+    setDupes(!dupes);
+  }
+  // Night handler
   const changeNight = () => {
     setNight(!night);
   };
+  // Condition handler
   const changeCondition = e => {
     setCondition(e.target.value);
   };
+  // Pokemon handler
   const changePokemon = e => {
     setPokemon(e);
   }
+  // <h1> element for pokemon would not rerender after selecting new area, this fixed it
   useEffect(() => {
     changePokemon(JSON.parse(getLocal("pokemonChosen", props.currentArea)));
   });
 
   const resetRun = () => {
-  // Function to reset the current data by clearing the data stored in local storage. 
+  // Function to reset the current data by overwriting the data stored in local storage. 
     if(window.confirm("Are you sure you want to reset this run?")) {
       localStorage.setItem('userData', JSON.stringify(userData));
       changePokemon(JSON.parse(getLocal("pokemonChosen", props.currentArea)));
@@ -34,10 +43,13 @@ const Area = props => {
 
   return(
     <>
+      {/* <h1> element displaying current Pokemon, or default message if none rolled */}
       <h1>{JSON.parse(getLocal("isChosen", props.currentArea)) === "false" ? "Press Roll to roll a Pokemon" : pokemon}</h1>
       {/* On button click, returns string condition (scarlet or violet) plus -night appended to it if night is checked */}
-      <button onClick={() => changePokemon(genPokemon(props.currentArea, condition + (night ? '-night' : '')))}>Roll</button>
+      <button onClick={() => changePokemon(genPokemon(props.currentArea, condition + (night ? '-night' : ''), dupes))}>Roll</button>
+      {/* Reset run button */}
       <button onClick={() => resetRun()}>Reset</button>
+
       <div className="condition-options">
         {/* Scarlet radio button */}
         <label>
@@ -74,6 +86,16 @@ const Area = props => {
             disabled = {areaKeys < 4}
           />
           Allow Night Pokemon?
+        </label>
+
+        {/* Allow dupes checkbox */}
+        <label>
+          <input 
+            type="checkbox"
+            checked={dupes}
+            onChange={changeDupes}
+          />
+          Allow Duplicates?
         </label>
       </div>
     </>
