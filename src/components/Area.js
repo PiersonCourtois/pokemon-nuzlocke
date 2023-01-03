@@ -9,6 +9,7 @@ const Area = props => {
   const [dupes, setDupes] = useState(false);
   const [condition, setCondition] = useState("encounters-scarlet");
   const [night, setNight] = useState(false);
+  const [skip, setSkip] = useState(false);
   const [pokemon, setPokemon] = useState(JSON.parse(getLocal("pokemonChosen", props.currentArea)));
   // Dupes handler
   const changeDupes = () => {
@@ -26,6 +27,10 @@ const Area = props => {
   const changePokemon = e => {
     setPokemon(e);
   }
+  // Skip hanlder
+  const changeSkip = () => {
+    setSkip(!skip);
+  }
   // <h1> element for pokemon would not rerender after selecting new area, this fixed it
   useEffect(() => {
     changePokemon(JSON.parse(getLocal("pokemonChosen", props.currentArea)));
@@ -37,16 +42,25 @@ const Area = props => {
       localStorage.setItem('userData', JSON.stringify(userData));
       changePokemon(JSON.parse(getLocal("pokemonChosen", props.currentArea)));
     }
+  } 
+  // Recursive function for a roll animation
+  function rollAnimation(timer) {
+    if(timer > 200)
+      return;
+    setTimeout(function () {changePokemon(genPokemon(props.currentArea, condition + (areaKeys > 4 ? '-night' : ''), dupes)); 
+      rollAnimation(timer += 5.5);
+      console.log(timer);
+    }, timer);
   }
-
-  console.log(props.currentArea);  
 
   return(
     <>
-      {/* <h1> element displaying current Pokemon, or default message if none rolled */}
+      {/* <h1> and img element displaying current Pokemon, or default message if none rolled */}
       <h1>{JSON.parse(getLocal("isChosen", props.currentArea)) === "false" ? "Press Roll to roll a Pokemon" : pokemon}</h1>
+      <img src={require("../poke-imgs/pokemon_" + pokemon + ".png")} alt='did not load' />
       {/* On button click, returns string condition (scarlet or violet) plus -night appended to it if night is checked */}
-      <button onClick={() => changePokemon(genPokemon(props.currentArea, condition + (night ? '-night' : ''), dupes))}>Roll</button>
+      <button onClick={() => rollAnimation(0)}>Animation test</button>
+      <button onClick={() => skip ? changePokemon(genPokemon(props.currentArea, condition + (areaKeys > 4 ? '-night' : ''), dupes)) : rollAnimation(0)}>Roll</button>
       {/* Reset run button */}
       <button onClick={() => resetRun()}>Reset</button>
 
@@ -96,6 +110,16 @@ const Area = props => {
             onChange={changeDupes}
           />
           Allow Duplicates?
+        </label>
+
+        {/* Skip Animation */}
+        <label>
+          <input 
+            type="checkbox"
+            checked={skip}
+            onChange={changeSkip}
+          />
+          Skip Animation
         </label>
       </div>
     </>

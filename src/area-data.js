@@ -55,24 +55,24 @@ export const gameData = [
   {
     "name": "East Province (Area Two)",
 
-    "encounters-scarlet": ["Buizel", "Chewtle", "Crabrawler", "Cyclizar", "Deerling", "	Dunsparce", "Finizen", "Grimer", "Gyarados", "Growlithe", "Magikarp", "Magnemite", "Makuhita", "Mareanie", "Marill", "Nacli", "Oinkologne", "Pawmi", "Pincurchin", "Psyduck", "Rookidee", "Sandygast", "Slowpoke", "Squawkabilly", "Tadbulb", "Tauros", "Wattrel", "Wiglett"],
+    "encounters-scarlet": ["Buizel", "Chewtle", "Crabrawler", "Cyclizar", "Deerling", "Dunsparce", "Finizen", "Grimer", "Gyarados", "Growlithe", "Magikarp", "Magnemite", "Makuhita", "Mareanie", "Marill", "Nacli", "Oinkologne", "Pawmi", "Pincurchin", "Psyduck", "Rookidee", "Sandygast", "Slowpoke", "Squawkabilly", "Tadbulb", "Tauros", "Wattrel", "Wiglett"],
 
-    "encounters-violet": ["Buizel", "Chewtle", "Crabrawler", "Cyclizar", "Deerling", "	Dunsparce", "Finizen", "Grimer", "Gyarados", "Growlithe", "Magikarp", "Magnemite", "Makuhita", "Mareanie", "Marill", "Nacli", "Oinkologne", "Pawmi", "Pincurchin", "Psyduck", "Rookidee", "Sandygast", "Slowpoke", "Squawkabilly", "Tadbulb", "Wattrel", "Wiglett"],
+    "encounters-violet": ["Buizel", "Chewtle", "Crabrawler", "Cyclizar", "Deerling", "Dunsparce", "Finizen", "Grimer", "Gyarados", "Growlithe", "Magikarp", "Magnemite", "Makuhita", "Mareanie", "Marill", "Nacli", "Oinkologne", "Pawmi", "Pincurchin", "Psyduck", "Rookidee", "Sandygast", "Slowpoke", "Squawkabilly", "Tadbulb", "Wattrel", "Wiglett"],
 
-    "encounters-scarlet-night": ["Buizel", "Chewtle", "Crabrawler", "Cyclizar", "Deerling", "	Dunsparce", "Finizen", "Grimer", "Gyarados", "Growlithe", "Magikarp", "Magnemite", "Makuhita", "Mareanie", "Marill", "Nacli", "Oinkologne", "Pawmi", "Pincurchin", "Psyduck", "Rookidee", "Sandygast", "Slowpoke", "Squawkabilly", "Tadbulb", "Tauros", "Wattrel", "Wiglett", "Shuppet", "Murkrow"],
+    "encounters-scarlet-night": ["Buizel", "Chewtle", "Crabrawler", "Cyclizar", "Deerling", "Dunsparce", "Finizen", "Grimer", "Gyarados", "Growlithe", "Magikarp", "Magnemite", "Makuhita", "Mareanie", "Marill", "Nacli", "Oinkologne", "Pawmi", "Pincurchin", "Psyduck", "Rookidee", "Sandygast", "Slowpoke", "Squawkabilly", "Tadbulb", "Tauros", "Wattrel", "Wiglett", "Shuppet", "Murkrow"],
 
-    "encounters-violet-night": ["Buizel", "Chewtle", "Crabrawler", "Cyclizar", "Deerling", "	Dunsparce", "Finizen", "Grimer", "Gyarados", "Growlithe", "Magikarp", "Magnemite", "Makuhita", "Mareanie", "Marill", "Nacli", "Oinkologne", "Pawmi", "Pincurchin", "Psyduck", "Rookidee", "Sandygast", "Slowpoke", "Squawkabilly", "Tadbulb", "Wattrel", "Wiglett", "Shuppet", "Murkrow"]
+    "encounters-violet-night": ["Buizel", "Chewtle", "Crabrawler", "Cyclizar", "Deerling", "Dunsparce", "Finizen", "Grimer", "Gyarados", "Growlithe", "Magikarp", "Magnemite", "Makuhita", "Mareanie", "Marill", "Nacli", "Oinkologne", "Pawmi", "Pincurchin", "Psyduck", "Rookidee", "Sandygast", "Slowpoke", "Squawkabilly", "Tadbulb", "Wattrel", "Wiglett", "Shuppet", "Murkrow"]
   },
   {
     "name": "South Province (Area Four)",
 
-    "encounters-scarlet": ["Arcanine ", "Buizel", "Deerling", "Dunsparce", "Fletchinder", "Floette", "Golduck", "Goomy", "Hatenna", "Leafeon", "Lechonk", "Makuhita", "Marill", "Maschiff", "Meditite", "Mudbray", "Nacli", "Pachirisu", "Pawmi", "Pawmo", "Persian", "Phanpy", "Psyduck", "Riolu", "Rockruff", "Scyther", "Sliggoo", "Starly", "Tadbulb", "Tarountula", "Toxel", "Wooper"],
+    "encounters-scarlet": ["Arcanine", "Buizel", "Deerling", "Dunsparce", "Fletchinder", "Floette", "Golduck", "Goomy", "Hatenna", "Leafeon", "Lechonk", "Makuhita", "Marill", "Maschiff", "Meditite", "Mudbray", "Nacli", "Pachirisu", "Pawmi", "Pawmo", "Persian", "Phanpy", "Psyduck", "Riolu", "Rockruff", "Scyther", "Sliggoo", "Starly", "Tadbulb", "Tarountula", "Toxel", "Wooper"],
 
-    "encounters-violet": ["Arcanine ", "Buizel", "Deerling", "Dunsparce", "Fletchinder", "Floette", "Golduck", "Goomy", "Hatenna", "Leafeon", "Lechonk", "Makuhita", "Marill", "Maschiff", "Meditite", "Mudbray", "Nacli", "Pachirisu", "Pawmi", "Pawmo", "Persian", "Phanpy", "Psyduck", "Riolu", "Rockruff", "Scyther", "Sliggoo", "Starly", "Tadbulb", "Tarountula", "Toxel", "Wooper"],
+    "encounters-violet": ["Arcanine", "Buizel", "Deerling", "Dunsparce", "Fletchinder", "Floette", "Golduck", "Goomy", "Hatenna", "Leafeon", "Lechonk", "Makuhita", "Marill", "Maschiff", "Meditite", "Mudbray", "Nacli", "Pachirisu", "Pawmi", "Pawmo", "Persian", "Phanpy", "Psyduck", "Riolu", "Rockruff", "Scyther", "Sliggoo", "Starly", "Tadbulb", "Tarountula", "Toxel", "Wooper"],
 
-    "encounters-scarlet-night": ["Arcanine ", "Buizel", "Deerling", "Dunsparce", "Fletchinder", "Floette", "Golduck", "Goomy", "Hatenna", "Leafeon", "Lechonk", "Makuhita", "Marill", "Maschiff", "Meditite", "Mudbray", "Nacli", "Pachirisu", "Pawmi", "Pawmo", "Persian", "Phanpy", "Psyduck", "Riolu", "Rockruff", "Scyther", "Sliggoo", "Starly", "Tadbulb", "Tarountula", "Toxel", "Wooper", "Murkrow"],
+    "encounters-scarlet-night": ["Arcanine", "Buizel", "Deerling", "Dunsparce", "Fletchinder", "Floette", "Golduck", "Goomy", "Hatenna", "Leafeon", "Lechonk", "Makuhita", "Marill", "Maschiff", "Meditite", "Mudbray", "Nacli", "Pachirisu", "Pawmi", "Pawmo", "Persian", "Phanpy", "Psyduck", "Riolu", "Rockruff", "Scyther", "Sliggoo", "Starly", "Tadbulb", "Tarountula", "Toxel", "Wooper", "Murkrow"],
 
-    "encounter-violet-night": ["Arcanine ", "Buizel", "Deerling", "Dunsparce", "Fletchinder", "Floette", "Golduck", "Goomy", "Hatenna", "Leafeon", "Lechonk", "Makuhita", "Marill", "Maschiff", "Meditite", "Mudbray", "Nacli", "Pachirisu", "Pawmi", "Pawmo", "Persian", "Phanpy", "Psyduck", "Riolu", "Rockruff", "Scyther", "Sliggoo", "Starly", "Tadbulb", "Tarountula", "Toxel", "Wooper", "Murkrow"]
+    "encounter-violet-night": ["Arcanine", "Buizel", "Deerling", "Dunsparce", "Fletchinder", "Floette", "Golduck", "Goomy", "Hatenna", "Leafeon", "Lechonk", "Makuhita", "Marill", "Maschiff", "Meditite", "Mudbray", "Nacli", "Pachirisu", "Pawmi", "Pawmo", "Persian", "Phanpy", "Psyduck", "Riolu", "Rockruff", "Scyther", "Sliggoo", "Starly", "Tadbulb", "Tarountula", "Toxel", "Wooper", "Murkrow"]
   },
   {
     "name": "South Province (Area Five)",
@@ -81,9 +81,9 @@ export const gameData = [
 
     "encounters-violet": ["Axew", "Bagon", "Buizel", "Chewtle", "Clodsire", "Corvisquire", "Crabrawler", "Deerling", "Dunsparce", "Flamigo", "Fletchinder", "Flittle", "Gumshoos", "Hoppip", "Litleo", "Luxio", "Magikarp", "Mankey", "Marill", "Masquerain", "Mudbray", "Nacli", "Oinkologne", "Pachirisu", "Pawmi", "Pincurchin", "Psyduck", "Rockruff", "Rookidee", "Sandygast", "Seviper", "Shellos", "Shroomish", "Seviper", "Skiddo", "Skiploom", "Slowpoke", "Stantler", "Surskit", "Swablu", "Tadbulb", "Tarountula", "Vigoroth", "Wattrel", "Wiglett", "	Wooper", "Yungoos", "Zangoose"],
 
-    "encounters-scarlet-night": ["Axew", "Bagon", "Buizel", "Chewtle", "Clodsire", "Corvisquire", "Crabrawler", "Deerling", "Dunsparce", "Flamigo", "Fletchinder", "Flittle", "Gumshoos", "Hoppip", "Litleo", "Luxio", "Magikarp", "Mankey", "Marill", "Masquerain", "Mudbray", "Nacli", "Oinkologne", "Pachirisu", "Pawmi", "Pincurchin", "Psyduck", "Rockruff", "Rookidee", "Sandygast", "Seviper", "Shellos", "Shroomish", "Seviper", "Skiddo", "Skiploom", "Slowpoke", "Stantler", "Surskit", "Swablu", "Tadbulb", "Tarountula", "Vigoroth", "Wattrel", "Wiglett", "	Wooper", "Yungoos", "Zangoose", "Ghastly"],
+    "encounters-scarlet-night": ["Axew", "Bagon", "Buizel", "Chewtle", "Clodsire", "Corvisquire", "Crabrawler", "Deerling", "Dunsparce", "Flamigo", "Fletchinder", "Flittle", "Gumshoos", "Hoppip", "Litleo", "Luxio", "Magikarp", "Mankey", "Marill", "Masquerain", "Mudbray", "Nacli", "Oinkologne", "Pachirisu", "Pawmi", "Pincurchin", "Psyduck", "Rockruff", "Rookidee", "Sandygast", "Seviper", "Shellos", "Shroomish", "Seviper", "Skiddo", "Skiploom", "Slowpoke", "Stantler", "Surskit", "Swablu", "Tadbulb", "Tarountula", "Vigoroth", "Wattrel", "Wiglett", "	Wooper", "Yungoos", "Zangoose", "Gastly"],
 
-    "encounters-violet-night": ["Axew", "Bagon", "Buizel", "Chewtle", "Clodsire", "Corvisquire", "Crabrawler", "Deerling", "Dunsparce", "Flamigo", "Fletchinder", "Flittle", "Gumshoos", "Hoppip", "Litleo", "Luxio", "Magikarp", "Mankey", "Marill", "Masquerain", "Mudbray", "Nacli", "Oinkologne", "Pachirisu", "Pawmi", "Pincurchin", "Psyduck", "Rockruff", "Rookidee", "Sandygast", "Seviper", "Shellos", "Shroomish", "Seviper", "Skiddo", "Skiploom", "Slowpoke", "Stantler", "Surskit", "Swablu", "Tadbulb", "Tarountula", "Vigoroth", "Wattrel", "Wiglett", "	Wooper", "Yungoos", "Zangoose", "Ghastly"]
+    "encounters-violet-night": ["Axew", "Bagon", "Buizel", "Chewtle", "Clodsire", "Corvisquire", "Crabrawler", "Deerling", "Dunsparce", "Flamigo", "Fletchinder", "Flittle", "Gumshoos", "Hoppip", "Litleo", "Luxio", "Magikarp", "Mankey", "Marill", "Masquerain", "Mudbray", "Nacli", "Oinkologne", "Pachirisu", "Pawmi", "Pincurchin", "Psyduck", "Rockruff", "Rookidee", "Sandygast", "Seviper", "Shellos", "Shroomish", "Seviper", "Skiddo", "Skiploom", "Slowpoke", "Stantler", "Surskit", "Swablu", "Tadbulb", "Tarountula", "Vigoroth", "Wattrel", "Wiglett", "	Wooper", "Yungoos", "Zangoose", "Gastly"]
   },
   {
     "name": "West Province (Area One)",
@@ -92,9 +92,9 @@ export const gameData = [
 
     "encounters-violet": ["Bagon", "Basculin", "Buizel", "Bombirdier", "Capsakid", "Charcadet", "Crabrawler", "Cyclizar", "Diglett", "Dragonair", "Dunsparce", "Flabebe", "Flittle", "Floette", "Gible", "Gumshoos", "Lokix", "Magikarp", "Makuhita", "Mankey", "Mudbray", "Nacli", "Numel", "Nymble", "Phanpy", "Psyduck", "Rockruff", "Sableye", "Salandit", "Skiddo", "Swablu", "Tadbulb", "Wiglett", "Wingull", "Yungoos"],
 
-    "encounters-scarlet-night": ["Bagon", "Basculin", "Buizel", "Bombirdier", "Capsakid", "Charcadet", "Crabrawler", "Cyclizar", "Diglett", "Dragonair", "Dunsparce", "Flabebe", "Flittle", "Floette", "Gible", "Gumshoos", "Lokix", "Magikarp", "Makuhita", "Mankey", "Mudbray", "Nacli", "Numel", "Nymble", "Phanpy", "Psyduck", "Rockruff", "Sableye", "Salandit", "Skiddo", "Swablu", "Tadbulb", "Wiglett", "Wingull", "Yungoos", "Murkrow", "Ghastly"],
+    "encounters-scarlet-night": ["Bagon", "Basculin", "Buizel", "Bombirdier", "Capsakid", "Charcadet", "Crabrawler", "Cyclizar", "Diglett", "Dragonair", "Dunsparce", "Flabebe", "Flittle", "Floette", "Gible", "Gumshoos", "Lokix", "Magikarp", "Makuhita", "Mankey", "Mudbray", "Nacli", "Numel", "Nymble", "Phanpy", "Psyduck", "Rockruff", "Sableye", "Salandit", "Skiddo", "Swablu", "Tadbulb", "Wiglett", "Wingull", "Yungoos", "Murkrow", "Gastly"],
 
-    "encounters-violet-night": ["Bagon", "Basculin", "Buizel", "Bombirdier", "Capsakid", "Charcadet", "Crabrawler", "Cyclizar", "Diglett", "Dragonair", "Dunsparce", "Flabebe", "Flittle", "Floette", "Gible", "Gumshoos", "Lokix", "Magikarp", "Makuhita", "Mankey", "Mudbray", "Nacli", "Numel", "Nymble", "Phanpy", "Psyduck", "Rockruff", "Sableye", "Salandit", "Skiddo", "Swablu", "Tadbulb", "Wiglett", "Wingull", "Yungoos", "Murkrow", "Misdreavus", "Ghastly"]
+    "encounters-violet-night": ["Bagon", "Basculin", "Buizel", "Bombirdier", "Capsakid", "Charcadet", "Crabrawler", "Cyclizar", "Diglett", "Dragonair", "Dunsparce", "Flabebe", "Flittle", "Floette", "Gible", "Gumshoos", "Lokix", "Magikarp", "Makuhita", "Mankey", "Mudbray", "Nacli", "Numel", "Nymble", "Phanpy", "Psyduck", "Rockruff", "Sableye", "Salandit", "Skiddo", "Swablu", "Tadbulb", "Wiglett", "Wingull", "Yungoos", "Murkrow", "Misdreavus", "Gastly"]
   },
   {
     "name": "Asado Desert",
@@ -106,24 +106,24 @@ export const gameData = [
   {
     "name": "West Province (Area Two)",
 
-    "encounters-scarlet": ["Arrokuda", "Buizel", "Chansey", "Crabrawler", "Croagunk", "Cyclizar", "Deerling", "Diglett", "Ditto", "Donphan", "Dunsparce", "Finizen", "Flaaffy", "Floatzel", "Garchomp", "Gible", "Girafarig", "Grimer", "Gyarados", "Kilowattrel", "Kirlia", "Lokix", "Magikarp", "Makuhita", "Maschiff", "Meditite", "Meowth", "Nacli", "Nacistack", "Noibat", "Oinkologne", "Pawmi", "Phanpy", "Pincurchin", "Psyduck", "Salandit", "Sandygast", "Shellos", "Skiddo", "Slowpoke", "Tandemaus", "Tauros", "Wattrel", "Wiglett", "Wingull", "Wugtrio"],
+    "encounters-scarlet": ["Arrokuda", "Buizel", "Chansey", "Crabrawler", "Croagunk", "Cyclizar", "Deerling", "Diglett", "Ditto", "Donphan", "Dunsparce", "Finizen", "Flaaffy", "Floatzel", "Garchomp", "Gible", "Girafarig", "Grimer", "Gyarados", "Kilowattrel", "Kirlia", "Lokix", "Magikarp", "Makuhita", "Maschiff", "Meditite", "Meowth", "Nacli", "Naclstack", "Noibat", "Oinkologne", "Pawmi", "Phanpy", "Pincurchin", "Psyduck", "Salandit", "Sandygast", "Shellos", "Skiddo", "Slowpoke", "Tandemaus", "Tauros", "Wattrel", "Wiglett", "Wingull", "Wugtrio"],
 
-    "encounters-violet": ["Arrokuda", "Buizel", "Chansey", "Crabrawler", "Croagunk", "Cyclizar", "Deerling", "Diglett", "Ditto", "Donphan", "Dunsparce", "Finizen", "Flaaffy", "Floatzel", "Garchomp", "Gible", "Girafarig", "Grimer", "Gyarados", "Kilowattrel", "Kirlia", "Lokix", "Magikarp", "Makuhita", "Maschiff", "Meditite", "Meowth", "Nacli", "Nacistack", "Noibat", "Oinkologne", "Pawmi", "Phanpy", "Pincurchin", "Psyduck", "Salandit", "Sandygast", "Shellos", "Skiddo", "Slowpoke", "Tandemaus", "Wattrel", "Wiglett", "Wingull", "Wugtrio"],
+    "encounters-violet": ["Arrokuda", "Buizel", "Chansey", "Crabrawler", "Croagunk", "Cyclizar", "Deerling", "Diglett", "Ditto", "Donphan", "Dunsparce", "Finizen", "Flaaffy", "Floatzel", "Garchomp", "Gible", "Girafarig", "Grimer", "Gyarados", "Kilowattrel", "Kirlia", "Lokix", "Magikarp", "Makuhita", "Maschiff", "Meditite", "Meowth", "Nacli", "Naclstack", "Noibat", "Oinkologne", "Pawmi", "Phanpy", "Pincurchin", "Psyduck", "Salandit", "Sandygast", "Shellos", "Skiddo", "Slowpoke", "Tandemaus", "Wattrel", "Wiglett", "Wingull", "Wugtrio"],
 
-    "encounters-scarlet-night": ["Arrokuda", "Buizel", "Chansey", "Crabrawler", "Croagunk", "Cyclizar", "Deerling", "Diglett", "Ditto", "Donphan", "Dunsparce", "Finizen", "Flaaffy", "Floatzel", "Garchomp", "Gible", "Girafarig", "Grimer", "Gyarados", "Kilowattrel", "Kirlia", "Lokix", "Magikarp", "Makuhita", "Maschiff", "Meditite", "Meowth", "Nacli", "Nacistack", "Noibat", "Oinkologne", "Pawmi", "Phanpy", "Pincurchin", "Psyduck", "Salandit", "Sandygast", "Shellos", "Skiddo", "Slowpoke", "Tandemaus", "Tauros", "Wattrel", "Wiglett", "Wingull", "Wugtrio", "Murkrow"],
+    "encounters-scarlet-night": ["Arrokuda", "Buizel", "Chansey", "Crabrawler", "Croagunk", "Cyclizar", "Deerling", "Diglett", "Ditto", "Donphan", "Dunsparce", "Finizen", "Flaaffy", "Floatzel", "Garchomp", "Gible", "Girafarig", "Grimer", "Gyarados", "Kilowattrel", "Kirlia", "Lokix", "Magikarp", "Makuhita", "Maschiff", "Meditite", "Meowth", "Nacli", "Naclstack", "Noibat", "Oinkologne", "Pawmi", "Phanpy", "Pincurchin", "Psyduck", "Salandit", "Sandygast", "Shellos", "Skiddo", "Slowpoke", "Tandemaus", "Tauros", "Wattrel", "Wiglett", "Wingull", "Wugtrio", "Murkrow"],
 
-    "encounters-violet-night": ["Arrokuda", "Buizel", "Chansey", "Crabrawler", "Croagunk", "Cyclizar", "Deerling", "Diglett", "Ditto", "Donphan", "Dunsparce", "Finizen", "Flaaffy", "Floatzel", "Garchomp", "Gible", "Girafarig", "Grimer", "Gyarados", "Kilowattrel", "Kirlia", "Lokix", "Magikarp", "Makuhita", "Maschiff", "Meditite", "Meowth", "Nacli", "Nacistack", "Noibat", "Oinkologne", "Pawmi", "Phanpy", "Pincurchin", "Psyduck", "Salandit", "Sandygast", "Shellos", "Skiddo", "Slowpoke", "Tandemaus", "Wattrel", "Wiglett", "Wingull", "Wugtrio", "Murkrow"]
+    "encounters-violet-night": ["Arrokuda", "Buizel", "Chansey", "Crabrawler", "Croagunk", "Cyclizar", "Deerling", "Diglett", "Ditto", "Donphan", "Dunsparce", "Finizen", "Flaaffy", "Floatzel", "Garchomp", "Gible", "Girafarig", "Grimer", "Gyarados", "Kilowattrel", "Kirlia", "Lokix", "Magikarp", "Makuhita", "Maschiff", "Meditite", "Meowth", "Nacli", "Naclstack", "Noibat", "Oinkologne", "Pawmi", "Phanpy", "Pincurchin", "Psyduck", "Salandit", "Sandygast", "Shellos", "Skiddo", "Slowpoke", "Tandemaus", "Wattrel", "Wiglett", "Wingull", "Wugtrio", "Murkrow"]
   },
   {
     "name": "West Province (Area Three)",
 
-    "encounters-scarlet": ["Basculin", "Breloom", "Bronzong", "Dachsbun", "Dedenne", "Deerling", "Ditto", "Dunsparce", "Fidough", "Flamigo", "Fletchinder", "Foongus", "Greedent", "Hoppip", "Hypno", "Jigglypuff", "Jumpluff", "Komala", "	Mabosstiff", "Magikarp", "Maschiff", "Meowth", "Oinkologne", "Pachirisu", "Persian", "Pikachu", "Primeape", "Psyduck", "Sawsbuck", "Scyther", "Shroodle", "Shroomish", "Skwovet", "Spidops", "Staravia", "Steenee", "	Sudowoodo", "Tadbulb", "Tarountula", "Toedscool", "Tropius", "Vigoroth", "Voltorb", "Zorua"],
+    "encounters-scarlet": ["Basculin", "Breloom", "Bronzong", "Dachsbun", "Dedenne", "Deerling", "Ditto", "Dunsparce", "Fidough", "Flamigo", "Fletchinder", "Foongus", "Greedent", "Hoppip", "Hypno", "Jigglypuff", "Jumpluff", "Komala", "Mabosstiff", "Magikarp", "Maschiff", "Meowth", "Oinkologne", "Pachirisu", "Persian", "Pikachu", "Primeape", "Psyduck", "Sawsbuck", "Scyther", "Shroodle", "Shroomish", "Skwovet", "Spidops", "Staravia", "Steenee", "Sudowoodo", "Tadbulb", "Tarountula", "Toedscool", "Tropius", "Vigoroth", "Voltorb", "Zorua"],
 
-    "encounters-violet": ["Basculin", "Breloom", "Bronzong", "Dachsbun", "Dedenne", "Deerling", "Ditto", "Dunsparce", "Fidough", "Flamigo", "Fletchinder", "Foongus", "Greedent", "Hoppip", "Hypno", "Jigglypuff", "Jumpluff", "Komala", "	Mabosstiff", "Magikarp", "Maschiff", "Meowth", "Oinkologne", "Pachirisu", "Persian", "Pikachu", "Primeape", "Psyduck", "Sawsbuck", "Scyther", "Shroodle", "Shroomish", "Skwovet", "Spidops", "Staravia", "Steenee", "	Sudowoodo", "Tadbulb", "Tarountula", "Toedscool", "Tropius", "Vigoroth", "Voltorb", "Zorua"], 
+    "encounters-violet": ["Basculin", "Breloom", "Bronzong", "Dachsbun", "Dedenne", "Deerling", "Ditto", "Dunsparce", "Fidough", "Flamigo", "Fletchinder", "Foongus", "Greedent", "Hoppip", "Hypno", "Jigglypuff", "Jumpluff", "Komala", "Mabosstiff", "Magikarp", "Maschiff", "Meowth", "Oinkologne", "Pachirisu", "Persian", "Pikachu", "Primeape", "Psyduck", "Sawsbuck", "Scyther", "Shroodle", "Shroomish", "Skwovet", "Spidops", "Staravia", "Steenee", "Sudowoodo", "Tadbulb", "Tarountula", "Toedscool", "Tropius", "Vigoroth", "Voltorb", "Zorua"], 
 
-    "encounters-scarlet-night": ["Basculin", "Breloom", "Bronzong", "Dachsbun", "Dedenne", "Deerling", "Ditto", "Dunsparce", "Fidough", "Flamigo", "Fletchinder", "Foongus", "Greedent", "Hoppip", "Hypno", "Jigglypuff", "Jumpluff", "Komala", "	Mabosstiff", "Magikarp", "Maschiff", "Meowth", "Oinkologne", "Pachirisu", "Persian", "Pikachu", "Primeape", "Psyduck", "Sawsbuck", "Scyther", "Shroodle", "Shroomish", "Skwovet", "Spidops", "Staravia", "Steenee", "	Sudowoodo", "Tadbulb", "Tarountula", "Toedscool", "Tropius", "Vigoroth", "Voltorb", "Zorua", "Murkrow"], 
+    "encounters-scarlet-night": ["Basculin", "Breloom", "Bronzong", "Dachsbun", "Dedenne", "Deerling", "Ditto", "Dunsparce", "Fidough", "Flamigo", "Fletchinder", "Foongus", "Greedent", "Hoppip", "Hypno", "Jigglypuff", "Jumpluff", "Komala", "Mabosstiff", "Magikarp", "Maschiff", "Meowth", "Oinkologne", "Pachirisu", "Persian", "Pikachu", "Primeape", "Psyduck", "Sawsbuck", "Scyther", "Shroodle", "Shroomish", "Skwovet", "Spidops", "Staravia", "Steenee", "Sudowoodo", "Tadbulb", "Tarountula", "Toedscool", "Tropius", "Vigoroth", "Voltorb", "Zorua", "Murkrow"], 
 
-    "encounters-violet-night": ["Basculin", "Breloom", "Bronzong", "Dachsbun", "Dedenne", "Deerling", "Ditto", "Dunsparce", "Fidough", "Flamigo", "Fletchinder", "Foongus", "Greedent", "Hoppip", "Hypno", "Jigglypuff", "Jumpluff", "Komala", "	Mabosstiff", "Magikarp", "Maschiff", "Meowth", "Oinkologne", "Pachirisu", "Persian", "Pikachu", "Primeape", "Psyduck", "Sawsbuck", "Scyther", "Shroodle", "Shroomish", "Skwovet", "Spidops", "Staravia", "Steenee", "	Sudowoodo", "Tadbulb", "Tarountula", "Toedscool", "Tropius", "Vigoroth", "Voltorb", "Zorua", "Murkrow", "Misdreavus"]
+    "encounters-violet-night": ["Basculin", "Breloom", "Bronzong", "Dachsbun", "Dedenne", "Deerling", "Ditto", "Dunsparce", "Fidough", "Flamigo", "Fletchinder", "Foongus", "Greedent", "Hoppip", "Hypno", "Jigglypuff", "Jumpluff", "Komala", "Mabosstiff", "Magikarp", "Maschiff", "Meowth", "Oinkologne", "Pachirisu", "Persian", "Pikachu", "Primeape", "Psyduck", "Sawsbuck", "Scyther", "Shroodle", "Shroomish", "Skwovet", "Spidops", "Staravia", "Steenee", "Sudowoodo", "Tadbulb", "Tarountula", "Toedscool", "Tropius", "Vigoroth", "Voltorb", "Zorua", "Murkrow", "Misdreavus"]
   },
   {
     "name": "East Province (Area Three)",
@@ -140,7 +140,7 @@ export const gameData = [
 
     "encounters-violet": ["Arrokuda", "Dreepy", "Flamigo", "Foongus", "Grafaiai", "Greedent", "Impidimp", "Komala", "Mimikyu", "Morgrem", "Oinkologne", "Passimian", "Pawniard", "	Psyduck", "Shroodle", "Skwovet", "Spidops", "Tadbulb", "Venonat", "Zorua"],
 
-    "encounters-scarlet-night": ["Arrokuda", "Flamigo", "Foongus", "Grafaiai", "Greedent", "Impidimp", "Komala", "Mimikyu", "Morgrem", "Oinkologne", "Pawniard", "	Psyduck", "Shroodle", "Skwovet", "Spidops", "Tadbulb", "Venonat", "Zorua", "Murkrow"],
+    "encounters-scarlet-night": ["Arrokuda", "Flamigo", "Foongus", "Grafaiai", "Greedent", "Impidimp", "Komala", "Mimikyu", "Morgrem", "Oinkologne", "Pawniard", "Psyduck", "Shroodle", "Skwovet", "Spidops", "Tadbulb", "Venonat", "Zorua", "Murkrow"],
 
     "encounters-violet-night": ["Arrokuda", "Dreepy", "Flamigo", "Foongus", "Grafaiai", "Greedent", "Impidimp", "Komala", "Mimikyu", "Morgrem", "Oinkologne", "Passimian", "Pawniard", "	Psyduck", "Shroodle", "Skwovet", "Spidops", "Tadbulb", "Venonat", "Zorua", "Murkrow"]
   },
@@ -180,9 +180,9 @@ export const gameData = [
 
     "encounters-violet": ["Abomasnow", "Avalugg", "Axew", "Beartic", "Bergmite", "Bronzong", "Cetoddle", "Crabominable", "Cryogonal", "Cubchoo", "Cufant", "Deerling", "Delibird", "Donphan", "Espathra", "Flareon", "Flittle", "Fraxure", "Froslass", "Gardevoir", "Glaceon", "Gogoat", "Golduck", "Greavard", "Greedent", "Grumpig", "Hariyama", "Houndstone", "Litleo", "Lokix", "Lycanroc", "Magnemite", "Magneton", "Makuhita", "Mudbray", "Nacli", "Naclstack", "Phanpy", "Psyduck", "Pyroar", "Ralts", "Rufflet", "Sawsbuck", "Scovillain", "Skwovet", "Sneasel", "Snom", "Snover", "Snorunt", "Spoink", "Teddiursa", "Tinkatuff", "Ursaring", "Vigoroth"],
 
-    "encounters-scarlet-night": ["Abomasnow", "Avalugg", "Axew", "Beartic", "Bergmite", "Bronzong", "Cetoddle", "Crabominable", "Cryogonal", "Cubchoo", "Cufant", "Deerling", "Delibird", "Donphan", "Espathra", "Flareon", "Flittle", "Fraxure", "Froslass", "Gardevoir", "Glaceon", "Gogoat", "Golduck", "Greavard", "Greedent", "Grumpig", "Hariyama", "Houndstone", "Litleo", "Lokix", "Lycanroc", "Magnemite", "Magneton", "Makuhita", "Mudbray", "Nacli", "Naclstack", "Phanpy", "Psyduck", "Pyroar", "Ralts", "Rufflet", "Sawsbuck", "Scovillain", "Skwovet", "Sneasel", "Snom", "Snover", "Snorunt", "Spoink", "Teddiursa", "Tinkatuff", "Ursaring", "Vigoroth", "Murkrow", "Honchkrow", "Haunter", "Ghastly"], 
+    "encounters-scarlet-night": ["Abomasnow", "Avalugg", "Axew", "Beartic", "Bergmite", "Bronzong", "Cetoddle", "Crabominable", "Cryogonal", "Cubchoo", "Cufant", "Deerling", "Delibird", "Donphan", "Espathra", "Flareon", "Flittle", "Fraxure", "Froslass", "Gardevoir", "Glaceon", "Gogoat", "Golduck", "Greavard", "Greedent", "Grumpig", "Hariyama", "Houndstone", "Litleo", "Lokix", "Lycanroc", "Magnemite", "Magneton", "Makuhita", "Mudbray", "Nacli", "Naclstack", "Phanpy", "Psyduck", "Pyroar", "Ralts", "Rufflet", "Sawsbuck", "Scovillain", "Skwovet", "Sneasel", "Snom", "Snover", "Snorunt", "Spoink", "Teddiursa", "Tinkatuff", "Ursaring", "Vigoroth", "Murkrow", "Honchkrow", "Haunter", "Gastly"], 
 
-    "encounters-violet-night": ["Abomasnow", "Avalugg", "Axew", "Beartic", "Bergmite", "Bronzong", "Cetoddle", "Crabominable", "Cryogonal", "Cubchoo", "Cufant", "Deerling", "Delibird", "Donphan", "Espathra", "Flareon", "Flittle", "Fraxure", "Froslass", "Gardevoir", "Glaceon", "Gogoat", "Golduck", "Greavard", "Greedent", "Grumpig", "Hariyama", "Houndstone", "Litleo", "Lokix", "Lycanroc", "Magnemite", "Magneton", "Makuhita", "Mudbray", "Nacli", "Naclstack", "Phanpy", "Psyduck", "Pyroar", "Ralts", "Rufflet", "Sawsbuck", "Scovillain", "Skwovet", "Sneasel", "Snom", "Snover", "Snorunt", "Spoink", "Teddiursa", "Tinkatuff", "Ursaring", "Vigoroth", "Murkrow", "Honchkrow", "Haunter", "Ghastly"]
+    "encounters-violet-night": ["Abomasnow", "Avalugg", "Axew", "Beartic", "Bergmite", "Bronzong", "Cetoddle", "Crabominable", "Cryogonal", "Cubchoo", "Cufant", "Deerling", "Delibird", "Donphan", "Espathra", "Flareon", "Flittle", "Fraxure", "Froslass", "Gardevoir", "Glaceon", "Gogoat", "Golduck", "Greavard", "Greedent", "Grumpig", "Hariyama", "Houndstone", "Litleo", "Lokix", "Lycanroc", "Magnemite", "Magneton", "Makuhita", "Mudbray", "Nacli", "Naclstack", "Phanpy", "Psyduck", "Pyroar", "Ralts", "Rufflet", "Sawsbuck", "Scovillain", "Skwovet", "Sneasel", "Snom", "Snover", "Snorunt", "Spoink", "Teddiursa", "Tinkatuff", "Ursaring", "Vigoroth", "Murkrow", "Honchkrow", "Haunter", "Gastly"]
   },
   {
     "name": "North Province (Area Three)",
@@ -198,9 +198,9 @@ export const gameData = [
 
     "encounters-violet": ["Altaria", "Axew", "Chansey", "Deerling", "Drakloak", "Dratini", "Dreepy", "Espathra", "Flareon", "Floette", "Fraxure", "Gogoat", "Golduck", "Greavard", "Hawlucha", "Houndstone", "Indeedee", "Lokix", "Lycanroc", "Pawmi", "Pawmo", "Nacli", "Naclstack", "Noibat", "Rufflet", "Salazzle", "Sawsbuck", "Scovillain", "Swablu", "Bronzong", "Teddiursa", "Tinkatuff", "Ursaring"],
 
-    "encounters-scarlet-night": ["Altaria", "Axew", "Chansey", "Deerling", "Dratini","Espathra", "Flareon", "Floette", "Fraxure", "Gogoat", "Golduck", "Greavard", "Hawlucha", "Houndstone", "Indeedee", "Lokix", "Lycanroc", "Pawmi", "Pawmo", "Nacli", "Naclstack", "Noibat", "Rufflet", "Salazzle", "Sawsbuck", "Scovillain", "Swablu", "Bronzong", "Teddiursa", "Tinkatuff", "Ursaring", "Haunter", "Ghastly"],
+    "encounters-scarlet-night": ["Altaria", "Axew", "Chansey", "Deerling", "Dratini","Espathra", "Flareon", "Floette", "Fraxure", "Gogoat", "Golduck", "Greavard", "Hawlucha", "Houndstone", "Indeedee", "Lokix", "Lycanroc", "Pawmi", "Pawmo", "Nacli", "Naclstack", "Noibat", "Rufflet", "Salazzle", "Sawsbuck", "Scovillain", "Swablu", "Bronzong", "Teddiursa", "Tinkatuff", "Ursaring", "Haunter", "Gastly"],
 
-    "encounters-violet-night": ["Altaria", "Axew", "Chansey", "Deerling", "Drakloak", "Dratini", "Dreepy", "Espathra", "Flareon", "Floette", "Fraxure", "Gogoat", "Golduck", "Greavard", "Hawlucha", "Houndstone", "Indeedee", "Lokix", "Lycanroc", "Pawmi", "Pawmo", "Nacli", "Naclstack", "Noibat", "Rufflet", "Salazzle", "Sawsbuck", "Scovillain", "Swablu", "Bronzong", "Teddiursa", "Tinkatuff", "Ursaring", "Haunter", "Ghastly"]
+    "encounters-violet-night": ["Altaria", "Axew", "Chansey", "Deerling", "Drakloak", "Dratini", "Dreepy", "Espathra", "Flareon", "Floette", "Fraxure", "Gogoat", "Golduck", "Greavard", "Hawlucha", "Houndstone", "Indeedee", "Lokix", "Lycanroc", "Pawmi", "Pawmo", "Nacli", "Naclstack", "Noibat", "Rufflet", "Salazzle", "Sawsbuck", "Scovillain", "Swablu", "Bronzong", "Teddiursa", "Tinkatuff", "Ursaring", "Haunter", "Gastly"]
   },
   {
     "name": "North Province (Area Two)",
@@ -212,9 +212,9 @@ export const gameData = [
   {
     "name": "Socarrat Trail",
 
-    "encounters-scarlet": ["Raichu", "Jolteon", "Sudowoodo", "Forretress", "Heracross", "Slaking", "Honchkrow", "Spritomb", "Leafeon", "Zoroark", "Sawsbuck", "Amoonguss", "Hawlucha", "Fomantis", "Lurantis", "Spidops", "Grafaiai", "Brambleghast", "Toedscool", "Toedscruel", "Tinkatuff"],
+    "encounters-scarlet": ["Raichu", "Jolteon", "Sudowoodo", "Forretress", "Heracross", "Slaking", "Honchkrow", "Spiritomb", "Leafeon", "Zoroark", "Sawsbuck", "Amoonguss", "Hawlucha", "Fomantis", "Lurantis", "Spidops", "Grafaiai", "Brambleghast", "Toedscool", "Toedscruel", "Tinkatuff"],
 
-    "encounters-violet": ["Raichu", "Jolteon", "Sudowoodo", "Forretress", "Heracross", "Slaking", "Honchkrow", "Spritomb", "Leafeon", "Zoroark", "Sawsbuck", "Amoonguss", "Hawlucha", "Fomantis", "Lurantis", "Spidops", "Grafaiai", "Brambleghast", "Toedscool", "Toedscruel", "Tinkatuff"]
+    "encounters-violet": ["Raichu", "Jolteon", "Sudowoodo", "Forretress", "Heracross", "Slaking", "Honchkrow", "Spiritomb", "Leafeon", "Zoroark", "Sawsbuck", "Amoonguss", "Hawlucha", "Fomantis", "Lurantis", "Spidops", "Grafaiai", "Brambleghast", "Toedscool", "Toedscruel", "Tinkatuff"]
   },
   {
     "name": "Casseroya Lake",
@@ -226,30 +226,30 @@ export const gameData = [
   {
     "name": "North Paldean Sea",
 
-    "encounters-scarlet": ["Sheller", "Cloyster", "Magikarp", "Gyrados", "Qwilfish", "Pelipper", "Floatzel", "Lumineon", "Alomomola", "Tynamo", "Eeletrik", "Skrelp", "Dragalge", "Bergmite", "Avalugg", "Barraskewda", "Kilowattrel", "Finizen", "Veluza"],
+    "encounters-scarlet": ["Shellder", "Cloyster", "Magikarp", "Gyarados", "Qwilfish", "Pelipper", "Floatzel", "Lumineon", "Alomomola", "Tynamo", "Eelektrik", "Skrelp", "Dragalge", "Bergmite", "Avalugg", "Barraskewda", "Kilowattrel", "Finizen", "Veluza"],
 
-    "encounters-violet": ["Sheller", "Cloyster", "Magikarp", "Gyrados", "Qwilfish", "Pelipper", "Floatzel", "Lumineon", "Alomomola", "Tynamo", "Eeletrik", "Clauncher", "Clawitzer", "Bergmite", "Avalugg", "Barraskewda", "Eiscue", "Kilowattrel", "Finizen", "Veluza"]
+    "encounters-violet": ["Shellder", "Cloyster", "Magikarp", "Gyarados", "Qwilfish", "Pelipper", "Floatzel", "Lumineon", "Alomomola", "Tynamo", "Eelektrik", "Clauncher", "Clawitzer", "Bergmite", "Avalugg", "Barraskewda", "Eiscue", "Kilowattrel", "Finizen", "Veluza"]
   },
   {
     "name": "South Paldean Sea",
 
-    "encounters-scarlet": ["Shellder", "Cloyster", "Magikarp", "Gyrados", "Qwilfish", "Wingull", "Luvdisc", "Buizel", "Floatzel", "Eeletrik", "Skrelp",  "Arrokuda", "Barraskewda", "Wattrel", "Finizen"],
+    "encounters-scarlet": ["Shellder", "Cloyster", "Magikarp", "Gyarados", "Qwilfish", "Wingull", "Luvdisc", "Buizel", "Floatzel", "Eelektrik", "Skrelp",  "Arrokuda", "Barraskewda", "Wattrel", "Finizen"],
 
-    "encounters-violet": ["Shellder", "Cloyster", "Magikarp", "Gyrados", "Qwilfish", "Wingull", "Luvdisc", "Buizel", "Floatzel", "Eeletrik", "Clauncher", "Clawitzer", "Arrokuda", "Barraskewda", "Wattrel", "Finizen"]
+    "encounters-violet": ["Shellder", "Cloyster", "Magikarp", "Gyarados", "Qwilfish", "Wingull", "Luvdisc", "Buizel", "Floatzel", "Eelektrik", "Clauncher", "Clawitzer", "Arrokuda", "Barraskewda", "Wattrel", "Finizen"]
   },
   {
     "name": "East Paldean Sea",
 
-    "encounters-scarlet": ["Sheller", "Cloyster", "Magikarp", "Gyrados", "Sunflora", "Qwilfish", "Luvdisc", "Combee", "Vespiquen", "Buizel", "Floatzel", "Vivillon", "Flabebe", "Floette", "Skrelp", "Mareanie", "Toxapex", "Bruxish", "Arrokuda", "Barraskewda", "Dolliv", "Wattrel", "Kilowattrel", "Finizen"],
+    "encounters-scarlet": ["Shellder", "Cloyster", "Magikarp", "Gyarados", "Sunflora", "Qwilfish", "Luvdisc", "Combee", "Vespiquen", "Buizel", "Floatzel", "Vivillon", "Flabebe", "Floette", "Skrelp", "Mareanie", "Toxapex", "Bruxish", "Arrokuda", "Barraskewda", "Dolliv", "Wattrel", "Kilowattrel", "Finizen"],
 
-    "encounters-violet": ["Sheller", "Cloyster", "Magikarp", "Gyrados", "Sunflora", "Qwilfish", "Luvdisc", "Combee", "Vespiquen", "Buizel", "Floatzel", "Vivillon", "Flabebe", "Floette", "Clauncher", "Mareanie", "Toxapex", "Bruxish", "Arrokuda", "Barraskewda", "Dolliv", "Wattrel", "Kilowattrel", "Finizen"]
+    "encounters-violet": ["Shellder", "Cloyster", "Magikarp", "Gyrados", "Sunflora", "Qwilfish", "Luvdisc", "Combee", "Vespiquen", "Buizel", "Floatzel", "Vivillon", "Flabebe", "Floette", "Clauncher", "Mareanie", "Toxapex", "Bruxish", "Arrokuda", "Barraskewda", "Dolliv", "Wattrel", "Kilowattrel", "Finizen"]
   },
   {
     "name": "West Paldean Sea",
 
-    "encounters-scarlet": ["Shellder", "Cloyster", "Magikarp", "Gyrados", "Qwilfish", "Wingull", "Pelipper", "Luvdisc", "Buizel", "Floatzel", "Finneon", "Lumineon", "Tynmo", "Eeletrik", "Skrelp", "Bruxish", "Arrokuda", "Barraskewda", "Wattrel", "Kilowattrel", "Bombirdier", "Finizen", "Veluza"],
+    "encounters-scarlet": ["Shellder", "Cloyster", "Magikarp", "Gyarados", "Qwilfish", "Wingull", "Pelipper", "Luvdisc", "Buizel", "Floatzel", "Finneon", "Lumineon", "Tynamo", "Eelektrik", "Skrelp", "Bruxish", "Arrokuda", "Barraskewda", "Wattrel", "Kilowattrel", "Bombirdier", "Finizen", "Veluza"],
 
-    "encounters-violet": ["Shellder", "Cloyster", "Magikarp", "Gyrados", "Qwilfish", "Wingull", "Pelipper", "Luvdisc", "Buizel", "Floatzel", "Finneon", "Lumineon", "Tynmo", "Eeletrik",  "Clauncher", "Bruxish", "Arrokuda", "Barraskewda", "Wattrel", "Kilowattrel", "Bombirdier", "Finizen", "Veluza"]
+    "encounters-violet": ["Shellder", "Cloyster", "Magikarp", "Gyarados", "Qwilfish", "Wingull", "Pelipper", "Luvdisc", "Buizel", "Floatzel", "Finneon", "Lumineon", "Tynamo", "Eelektrik",  "Clauncher", "Bruxish", "Arrokuda", "Barraskewda", "Wattrel", "Kilowattrel", "Bombirdier", "Finizen", "Veluza"]
   },
   {
     "name": "Area Zero",
