@@ -54,7 +54,6 @@ html {
 
 .area button{
   position: relative;
-  overflow: hidden;
   font-size: large;
   background-color: #92E6A7;
   border: none;
@@ -164,6 +163,9 @@ html {
 }
 
 @media only screen and (max-width: 1280px) {
+  html {
+    overflow: scroll;
+  }
 
 
   .area button {
@@ -214,18 +216,21 @@ html {
 
 }
 @media only screen and (max-width: 480px) {
+  html {
+    overflow: scroll;
+  }
   .level-cap-container {
     display:block;
   }
   .roll-container {
-    position: fixed;
+    position: absolute;
     top: 210px;
     left: 130px;
   }
 
   h1 {
     font-size: 24px;
-    padding: 20px 5px 5px 5px;
+    padding: 30px 5px 5px 2px;
   }
 }
 
