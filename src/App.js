@@ -1,7 +1,8 @@
 import React from 'react';
 import Run from './components/Run';
-
+import Levels from './components/Levels';
 import { userData } from "./user-data";
+import './styles.css';
 
 const App = () => {
     // Initializes userData if first time entering page
@@ -12,6 +13,7 @@ const App = () => {
     return (
         <>
          <Run />
+         <Levels />
         </>
     );
 }

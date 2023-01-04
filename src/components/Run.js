@@ -10,13 +10,14 @@ const Run = () => {
     return(
 
         <div className='run-container'>
-            <h1>Run</h1>
-            
-            
+            <div className='header'>
+                <img src={require('../type-imgs/icon512.png')} alt='' width={100}/>
+                <h1>NuzRun</h1>
+            </div>
             <div className='area-container'>
                 {game.map((data, key) => {
                     return (
-                        <div key={key}>
+                        <div className ="area" key={key}>
                             <button onClick={() => setArea(key)}>{data.name}</button>
                         </div>
                     );

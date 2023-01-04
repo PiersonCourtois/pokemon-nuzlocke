@@ -56,14 +56,16 @@ const Area = props => {
   return(
     <>
       {/* <h1> and img element displaying current Pokemon, or default message if none rolled */}
-      <h1>{JSON.parse(getLocal("isChosen", props.currentArea)) === "false" ? "Press Roll to roll a Pokemon" : pokemon}</h1>
+      <h1>Current area: {gameData[props.currentArea].name}</h1>
+      <h2>{JSON.parse(getLocal("isChosen", props.currentArea)) === "false" ? "Press Roll" : pokemon}</h2>
       <img src={require("../poke-imgs/pokemon_" + pokemon + ".png")} alt='did not load' />
+      <div className="button-container">
       {/* On button click, returns string condition (scarlet or violet) plus -night appended to it if night is checked */}
-      <button onClick={() => rollAnimation(0)}>Animation test</button>
-      <button onClick={() => skip ? changePokemon(genPokemon(props.currentArea, condition + (areaKeys > 4 ? '-night' : ''), dupes)) : rollAnimation(0)}>Roll</button>
+        <button onClick={() => skip ? changePokemon(genPokemon(props.currentArea, condition + (areaKeys > 4 ? '-night' : ''), dupes)) : rollAnimation(0)}>Roll</button>
       {/* Reset run button */}
-      <button onClick={() => resetRun()}>Reset</button>
-
+        <button onClick={() => resetRun()}>Reset</button>
+        <button><a href={"https://bulbapedia.bulbagarden.net/wiki/" + pokemon + "_(Pok%C3%A9mon)"} target="blank">Bulbapedia</a></button>
+      </div>
       <div className="condition-options">
         {/* Scarlet radio button */}
         <label>
