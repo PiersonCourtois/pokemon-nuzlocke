@@ -164,17 +164,8 @@ html {
 }
 
 @media only screen and (max-width: 1280px) {
-  html {
-    max-width: 100vw;
-    max-height: 100vh;
-    overflow: hidden;
-  }
-  body {
-    overflow: hidden;
-  }
-  #root {
-    overflow: hidden;
-  }
+
+
   .area button {
     width: 100%;
     color:#10451D;
@@ -221,6 +212,21 @@ html {
   }
 
 
+}
+@media only screen and (max-width: 480px) {
+  .level-cap-container {
+    display:block;
+  }
+  .roll-container {
+    position: fixed;
+    top: 210px;
+    left: 130px;
+  }
+
+  h1 {
+    font-size: 24px;
+    padding: 20px 5px 5px 5px;
+  }
 }
 
 
