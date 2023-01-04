@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.11dad403.css",
-    "main.js": "/static/js/main.3354947c.js",
+    "main.js": "/static/js/main.5c9d15e3.js",
     "static/media/pokemon_Tinkaton.png": "/static/media/pokemon_Tinkaton.f923a311cbac9fa3f8cf.png",
     "static/media/icon512.png": "/static/media/icon512.0b7bd3c8606e8b0003f1.png",
     "static/media/pokemon_Gyarados.png": "/static/media/pokemon_Gyarados.ec6e3007fcae67b37fae.png",
@@ -125,10 +125,10 @@
     "static/media/pokemon_Zoroark.png": "/static/media/pokemon_Zoroark.81609ce9b72b13b4ad6a.png",
     "index.html": "/index.html",
     "main.11dad403.css.map": "/static/css/main.11dad403.css.map",
-    "main.3354947c.js.map": "/static/js/main.3354947c.js.map"
+    "main.5c9d15e3.js.map": "/static/js/main.5c9d15e3.js.map"
   },
   "entrypoints": [
     "static/css/main.11dad403.css",
-    "static/js/main.3354947c.js"
+    "static/js/main.5c9d15e3.js"
   ]
 }
